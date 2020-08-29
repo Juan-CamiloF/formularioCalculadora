@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    background-color: #146189;
+}
+h1{
+    padding-top: 20px;
+    text-align: center;
+    
+}
+form{
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px #ecececd0;
+    padding: 0 30px;
+    padding-bottom: 10px;
+}
+.formContact{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+   
+}
+.inputContact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.inputContact  label{
+     margin-bottom: 5px;
+}
+.inputContact input{
+    padding:10px 15px;
+    border:none;
+    background-color: #45448636;
+    border-radius: 5px;
+}
+.btnEnviar{
+   align-self: center;
+   margin-top: 15px;
+   background-color: #45448636;
+   padding:10px;
+   border-radius: 5px;
+}
+.inputTerminos{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.inputTerminos > label{
+    padding-right: 10px;
+}
+.bgcAlert{
+    background-color: #e95a5a71 !important;
+}
+

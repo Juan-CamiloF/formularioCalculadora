@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../css/style-cal.css">
+</head>
+
+<body>
+    <section>
+        <h1>Calculadora</h1>
+        <div class="linea"></div>
+        <div class="numeros">
+            <input type="number" name="number1" id="number1" placeholder="Número 1">
+        
+            <input type="number" name="number2" id="number2" placeholder="Número 2">
+        </div>
+        <div class="boton">
+            <button onclick="operacion('suma')">+</button>
+            <button onclick="operacion('resta')">-</button>
+            <button onclick="operacion('multi')">x</button>
+            <button onclick="operacion('divi')">÷</button>
+        </div>    
+        <div>
+            <h2 id="resul">Resultado</h2>
+        </div> 
+        
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1420 312">
+        <path fill="#146189" fill-opacity="0.9" d="M0,96L0,256L144,256L144,288L288,288L288,128L432,128L432,224L576,224L576,96L720,96L720,128L864,128L864,128L1008,128L1008,320L1152,320L1152,256L1296,256L1296,128L1440,128L1440,320L1296,320L1296,320L1152,320L1152,320L1008,320L1008,320L864,320L864,320L720,320L720,320L576,320L576,320L432,320L432,320L288,320L288,320L144,320L144,320L0,320L0,320Z"></path></svg>
+    <script src="../scripts/script-cal.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    
+    <form class="formContact" onsubmit="validarFormulario(event)">
+        <h1>
+            Formulario
+        </h1>
+        <div class="inputContact">
+            <label for="">Nombre</label>
+            <input type="text" placeholder="Ej: Juanito" id="name">
+            <small id="alertaNombre"></small>
+        </div>
+        <div class="inputContact">
+            <label for="">Apellido</label>
+            <input type="text" id="apellido">
+            <small id="alertaApellido"></small>
+        </div>
+        <div class="inputContact">
+            <label for="">Correo</label>
+            <input type="email" id="email">
+            <small id="alertaEmail"></small>
+        </div>
+        <div class="inputContact">
+            <label for="">Contraseña</label>
+            <input type="password" id="password">
+            <small id="alertaPassword"></small>
+        </div>
+        <div class="inputTerminos">
+            <label for="inputTyC">Acepta terminos y condiciones</label>
+            <input type="checkbox" id="inputTyC">
+            <small id="alertaTyC"></small>
+        </div>
+        <input type="submit" class="btnEnviar" value="Enviar">
+    </form>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
